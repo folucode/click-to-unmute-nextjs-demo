@@ -20,7 +20,7 @@ export default function IndexPage() {
       <div className='video-area'>
         <CloudinaryContext cloudName='chukwutosin'>
           <Video
-            publicId='samples/test'
+            publicId='Dog_Barking'
             controls
             muted={true}
             width='500px'

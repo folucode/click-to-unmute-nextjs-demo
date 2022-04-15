@@ -3,9 +3,9 @@ import { Video, CloudinaryContext } from 'cloudinary-react';
 
 export default function IndexPage() {
   const videoRef = useRef();
-  let video = videoRef.current;
 
   const unmute = () => {
+    let video = videoRef.current;
     video.muted = false;
   };
 
